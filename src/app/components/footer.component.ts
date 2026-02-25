@@ -8,12 +8,6 @@ import { Component } from '@angular/core';
       <div class="container has-text-centered">
         <img src="logo.png" alt="KoF" class="footer-logo">
         <div class="is-flex is-justify-content-center mt-4 mb-5">
-          <a href="https://www.instagram.com/cafe.kof/" target="_blank" class="social-link">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/people/KOF/61570099032988/" target="_blank" class="social-link mx-4">
-            <i class="fa fa-facebook"></i>
-          </a>
           <a href="https://github.com/IT-Kamianets/kof.itkamianets.com" target="_blank" class="social-link">
             <i class="fa fa-github"></i>
           </a>

@@ -19,6 +19,29 @@ import { LanguageService } from '../services/language.service';
       </div>
     </section>
 
+    <!-- Tea Ceremony Section -->
+    <section id="tea" class="section px-4" style="background: linear-gradient(180deg, #090a0f 0%, #15171e 100%); position: relative; overflow: hidden;">
+      <div class="container is-max-desktop">
+        <div class="columns is-vcentered">
+          <div class="column is-6">
+            <h2 class="title is-2 mb-4" style="color: #fff !important; font-family: 'Montserrat', sans-serif;">{{ ls.t.tea.title }}</h2>
+            <p class="subtitle is-4" style="color: #00d2ff !important; font-weight: 700;">{{ ls.t.tea.subtitle }}</p>
+            <p class="is-size-5 mb-5" style="color: #8b92a5;">{{ ls.t.tea.description }}</p>
+            <ul class="mb-6">
+              <li *ngFor="let feat of ls.t.tea.features" class="mb-3 is-flex is-align-items-center" style="color: #fff;">
+                <span style="color: #00d2ff; margin-right: 1rem; font-size: 1.2rem;">●</span> {{ feat }}
+              </li>
+            </ul>
+          </div>
+          <div class="column is-6">
+            <div class="tea-image-frame">
+              <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=800&q=80" alt="Tea Ceremony" style="border-radius: 20px; box-shadow: 0 0 40px rgba(0,210,255,0.2);">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Menu Section -->
     <section id="menu" class="section px-4 pt-0">
       <div class="container is-max-desktop">
@@ -68,14 +91,17 @@ import { LanguageService } from '../services/language.service';
               <p class="is-size-4 has-text-weight-bold">10:00 — 20:45</p>
             </div>
             
-            <div class="is-flex mt-5">
-              <a href="https://www.instagram.com/cafe.kof/" target="_blank" class="social-circle-btn">
+            <div class="is-flex mt-5 is-flex-wrap-wrap">
+              <a href="https://www.instagram.com/cafe.kof/" target="_blank" class="social-circle-btn mb-3">
                 <i class="fa fa-instagram"></i>
               </a>
-              <a href="https://www.facebook.com/people/KOF/61570099032988/" target="_blank" class="social-circle-btn ml-4">
+              <a href="https://www.facebook.com/people/KOF/61570099032988/" target="_blank" class="social-circle-btn ml-4 mb-3">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a href="https://www.google.com/maps" target="_blank" class="button is-primary is-outlined is-rounded is-large has-text-weight-bold map-btn ml-5">
+              <a href="https://www.tiktok.com/@cafekof" target="_blank" class="social-circle-btn ml-4 mb-3">
+                <svg viewBox="0 0 448 512" style="width: 24px; fill: currentColor;"><path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72a162.55 162.55 0 1 1-162.55-162.55c8.95 0 17.52.84 25.85 2.4v78.51a82.48 82.48 0 1 0-25.85 161.46c45.51 0 82.48-36.97 82.48-82.48V0h82.48a127.19 127.19 0 0 0 127.19 127.19v82.72z"/></svg>
+              </a>
+              <a href="https://www.google.com/maps" target="_blank" class="button is-primary is-outlined is-rounded is-large has-text-weight-bold map-btn ml-5-tablet ml-0-mobile mt-3-mobile">
                 <i class="fa fa-map mr-2"></i> {{ ls.t.visit.route }}
               </a>
             </div>

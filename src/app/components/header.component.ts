@@ -15,6 +15,13 @@ import { LanguageService, Lang } from '../services/language.service';
           </a>
 
           <div class="is-flex is-align-items-center ml-auto">
+            <a href="#tea" class="nav-btn mx-2 is-hidden-mobile">
+              <i class="fa fa-leaf mr-2"></i>{{ langService.t.nav.tea }}
+            </a>
+            <a href="#tea" class="nav-btn mx-2 is-hidden-tablet">
+              <i class="fa fa-leaf"></i>
+            </a>
+
             <a href="#menu" class="nav-btn mx-2 is-hidden-mobile">
               <i class="fa fa-cutlery mr-2"></i>{{ langService.t.nav.menu }}
             </a>
@@ -31,11 +38,11 @@ import { LanguageService, Lang } from '../services/language.service';
 
             <!-- Social Icons -->
             <div class="is-flex is-align-items-center ml-2 mr-2">
-              <a href="https://www.instagram.com/cafe.kof/" target="_blank" class="social-icon-link">
-                <i class="fa fa-instagram"></i>
+              <a href="https://www.tiktok.com/@cafekof" target="_blank" class="social-icon-link">
+                <svg viewBox="0 0 448 512" style="width: 18px; fill: currentColor; vertical-align: middle;"><path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72a162.55 162.55 0 1 1-162.55-162.55c8.95 0 17.52.84 25.85 2.4v78.51a82.48 82.48 0 1 0-25.85 161.46c45.51 0 82.48-36.97 82.48-82.48V0h82.48a127.19 127.19 0 0 0 127.19 127.19v82.72z"/></svg>
               </a>
-              <a href="https://www.facebook.com/people/KOF/61570099032988/" target="_blank" class="social-icon-link ml-3">
-                <i class="fa fa-facebook-official"></i>
+              <a href="https://www.instagram.com/cafe.kof/" target="_blank" class="social-icon-link ml-3">
+                <i class="fa fa-instagram"></i>
               </a>
             </div>
             

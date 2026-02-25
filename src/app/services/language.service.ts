@@ -10,8 +10,14 @@ export class LanguageService {
 
   translations: Record<Lang, any> = {
     UA: {
-      nav: { menu: "МЕНЮ", contact: "КОНТАКТИ" },
+      nav: { menu: "МЕНЮ", contact: "КОНТАКТИ", tea: "ЧАЙ" },
       hero: { title: "НАША СЕЛЕКЦІЯ" },
+      tea: {
+        title: "КИТАЙСЬКА ЧАЙНА ЦЕРЕМОНІЯ",
+        subtitle: "Відкрийте для себе десятки елітних сортів чаю",
+        description: "Зануртесь у атмосферу спокою та гармонії. Наші майстри проведуть вас крізь тисячолітні традиції чаювання.",
+        features: ["Десятки видів справжнього китайського чаю", "Традиційна церемонія Пін Ча", "Ексклюзивні сорти: Пуер, Улун, Да Хун Пао", "Професійний чайний посуд"]
+      },
       visit: { title: "ЗАВІТАЙТЕ ДО НАС", address: "вул. Лесі Українки, 38", city: "Кам'янець-Подільський", route: "МАРШРУТ" },
       items: {
         sh_chicken: "Шаурма курка",
@@ -64,8 +70,14 @@ export class LanguageService {
       }
     },
     EN: {
-      nav: { menu: "MENU", contact: "CONTACT" },
+      nav: { menu: "MENU", contact: "CONTACT", tea: "TEA" },
       hero: { title: "OUR SELECTION" },
+      tea: {
+        title: "CHINESE TEA CEREMONY",
+        subtitle: "Discover dozens of elite tea varieties",
+        description: "Immerse yourself in an atmosphere of peace and harmony. Our masters will guide you through millennia of tea traditions.",
+        features: ["Dozens of authentic Chinese teas", "Traditional Pin Cha ceremony", "Exclusive varieties: Puer, Oolong, Da Hong Pao", "Professional tea-ware"]
+      },
       visit: { title: "VISIT US", address: "38 Lesi Ukrainki St.", city: "Kamianets-Podilskyi", route: "ROUTE" },
       items: {
         sh_chicken: "Chicken Shawarma",
@@ -118,8 +130,14 @@ export class LanguageService {
       }
     },
     IT: {
-      nav: { menu: "MENU", contact: "CONTATTI" },
+      nav: { menu: "MENU", contact: "CONTATTI", tea: "TÈ" },
       hero: { title: "LA NOSTRA SELEZIONE" },
+      tea: {
+        title: "CERIMONIA DEL TÈ CINESE",
+        subtitle: "Scopri dozzine di varietà di tè d'élite",
+        description: "Immergiti in un'atmosfera di pace e armonia. I nostri maestri ti guideranno attraverso millenni di tradizioni del tè.",
+        features: ["Dozzine di autentici tè cinesi", "Cerimonia tradizionale Pin Cha", "Varietà esclusive: Puer, Oolong, Da Hong Pao", "Servizio da tè professionale"]
+      },
       visit: { title: "VIENI A TROVARCI", address: "Via Lesi Ukrainki, 38", city: "Kamianets-Podilskyi", route: "PERCORSO" },
       items: {
         sh_chicken: "Shawarma di Pollo",
@@ -172,8 +190,14 @@ export class LanguageService {
       }
     },
     DE: {
-      nav: { menu: "MENÜ", contact: "KONTAKT" },
+      nav: { menu: "MENÜ", contact: "KONTAKT", tea: "TEE" },
       hero: { title: "UNSERE AUSWAHL" },
+      tea: {
+        title: "CHINESISCHE TEEZEREMONIE",
+        subtitle: "Entdecken Sie Dutzende von Elite-Teesorten",
+        description: "Tauchen Sie ein in eine Atmosphäre der Ruhe und Harmonie. Unsere Meister führen Sie durch jahrtausendealte Teetraditionen.",
+        features: ["Dutzende authentische chinesische Tees", "Traditionelle Pin-Cha-Zeremonie", "Exklusive Sorten: Puer, Oolong, Da Hong Pao", "Professionelles Teegeschirr"]
+      },
       visit: { title: "BESUCHEN SIE UNS", address: "Lesi Ukrainki Str. 38", city: "Kamjanez-Podilskyj", route: "ROUTE" },
       items: {
         sh_chicken: "Hähnchen Schawarma",
@@ -226,8 +250,14 @@ export class LanguageService {
       }
     },
     FR: {
-      nav: { menu: "MENU", contact: "CONTACT" },
+      nav: { menu: "MENU", contact: "CONTACT", tea: "THÉ" },
       hero: { title: "NOTRE SÉLECTION" },
+      tea: {
+        title: "CÉRÉMONIE DU THÉ CHINOIS",
+        subtitle: "Découvrez des dizaines de variétés de thés d'élite",
+        description: "Plongez dans une atmosphère de paix et d'harmonie. Nos maîtres vous guideront à travers des millénaires de traditions du thé.",
+        features: ["Des dizaines de thés chinois authentiques", "Cérémonie traditionnelle Pin Cha", "Variétés exclusives : Puer, Oolong, Da Hong Pao", "Service à thé professionnel"]
+      },
       visit: { title: "VISITEZ-NOUS", address: "38, rue Lesi Ukrainki", city: "Kamianets-Podilskyi", route: "ITINÉRAIRE" },
       items: {
         sh_chicken: "Shawarma au Poulet",
