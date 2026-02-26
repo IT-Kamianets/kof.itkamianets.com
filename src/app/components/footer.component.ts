@@ -14,6 +14,8 @@ import { Component } from '@angular/core';
         </div>
         <p class="is-size-7 footer-text">
           &copy; 2026 KoF CAFE. DESIGNED FOR IT-KAMIANETS.
+          <br>
+          designed by Anatoliy
         </p>
       </div>
     </footer>
