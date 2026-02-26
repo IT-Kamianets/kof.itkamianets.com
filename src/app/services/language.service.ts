@@ -14,9 +14,9 @@ export class LanguageService {
       hero: { title: "НАША СЕЛЕКЦІЯ" },
       tea: {
         title: "КИТАЙСЬКА ЧАЙНА ЦЕРЕМОНІЯ",
-        subtitle: "Відкрийте для себе десятки елітних сортів чаю",
-        description: "Зануртесь у атмосферу спокою та гармонії. Наші майстри проведуть вас крізь тисячолітні традиції чаювання.",
-        features: ["Десятки видів справжнього китайського чаю", "Традиційна церемонія Пін Ча", "Ексклюзивні сорти: Пуер, Улун, Да Хун Пао", "Професійний чайний посуд"]
+        subtitle: "Ціна: 300 грн",
+        description: "Зануртесь у атмосферу спокою та гармонії. У нас представлено понад 40 видів справжнього китайського чаю. Відкрийте для себе тисячолітні традиції чаювання.",
+        features: ["Зелений чай", "Улун", "Червоний Чай", "Білий Чай", "Шен Пуер", "Шу Пуер"]
       },
       visit: { title: "ЗАВІТАЙТЕ ДО НАС", address: "вул. Лесі Українки, 38", city: "Кам'янець-Подільський", route: "МАРШРУТ" },
       items: {
@@ -74,9 +74,9 @@ export class LanguageService {
       hero: { title: "OUR SELECTION" },
       tea: {
         title: "CHINESE TEA CEREMONY",
-        subtitle: "Discover dozens of elite tea varieties",
-        description: "Immerse yourself in an atmosphere of peace and harmony. Our masters will guide you through millennia of tea traditions.",
-        features: ["Dozens of authentic Chinese teas", "Traditional Pin Cha ceremony", "Exclusive varieties: Puer, Oolong, Da Hong Pao", "Professional tea-ware"]
+        subtitle: "Price: 300 UAH",
+        description: "Immerse yourself in an atmosphere of peace and harmony. We offer over 40 varieties of authentic Chinese tea. Discover millennia of tea traditions.",
+        features: ["Green Tea", "Oolong", "Red Tea", "White Tea", "Sheng Puer", "Shu Puer"]
       },
       visit: { title: "VISIT US", address: "38 Lesi Ukrainki St.", city: "Kamianets-Podilskyi", route: "ROUTE" },
       items: {
@@ -134,9 +134,9 @@ export class LanguageService {
       hero: { title: "LA NOSTRA SELEZIONE" },
       tea: {
         title: "CERIMONIA DEL TÈ CINESE",
-        subtitle: "Scopri dozzine di varietà di tè d'élite",
-        description: "Immergiti in un'atmosfera di pace e armonia. I nostri maestri ti guideranno attraverso millenni di tradizioni del tè.",
-        features: ["Dozzine di autentici tè cinesi", "Cerimonia tradizionale Pin Cha", "Varietà esclusive: Puer, Oolong, Da Hong Pao", "Servizio da tè professionale"]
+        subtitle: "Prezzo: 300 UAH",
+        description: "Immergiti in un'atmosfera di pace e armonia. Offriamo oltre 40 varietà di autentico tè cinese. Scopri millenni di tradizioni del tè.",
+        features: ["Tè Verde", "Oolong", "Tè Rosso", "Tè Bianco", "Sheng Puer", "Shu Puer"]
       },
       visit: { title: "VIENI A TROVARCI", address: "Via Lesi Ukrainki, 38", city: "Kamianets-Podilskyi", route: "PERCORSO" },
       items: {
@@ -194,9 +194,9 @@ export class LanguageService {
       hero: { title: "UNSERE AUSWAHL" },
       tea: {
         title: "CHINESISCHE TEEZEREMONIE",
-        subtitle: "Entdecken Sie Dutzende von Elite-Teesorten",
-        description: "Tauchen Sie ein in eine Atmosphäre der Ruhe und Harmonie. Unsere Meister führen Sie durch jahrtausendealte Teetraditionen.",
-        features: ["Dutzende authentische chinesische Tees", "Traditionelle Pin-Cha-Zeremonie", "Exklusive Sorten: Puer, Oolong, Da Hong Pao", "Professionelles Teegeschirr"]
+        subtitle: "Preis: 300 UAH",
+        description: "Tauchen Sie ein in eine Atmosphäre der Ruhe und Harmonie. Wir bieten über 40 Sorten echten chinesischen Tees an. Entdecken Sie jahrtausendealte Teetraditionen.",
+        features: ["Grüner Tee", "Oolong", "Roter Tee", "Weißer Tee", "Sheng Puer", "Shu Puer"]
       },
       visit: { title: "BESUCHEN SIE UNS", address: "Lesi Ukrainki Str. 38", city: "Kamjanez-Podilskyj", route: "ROUTE" },
       items: {
@@ -215,8 +215,8 @@ export class LanguageService {
         brg_mega: "Mega Burger XXL",
         hd_white_m: "Hot Dog Helles Brötchen",
         hd_dark_m: "Hot Dog Dunkles Brötchen",
-        hd_white_d: "Hot Dog Dunkle Wurst",
-        hd_dark_d: "Hot Dog Dunkle Wurst",
+        hd_white_d: "Hot Dog Helles Brötchen",
+        hd_dark_d: "Hot Dog Dunkles Brötchen",
         fries_100: "Pommes Frites (100g)",
         fries_150: "Pommes Frites (150g)",
         nuggets_7: "Chicken Nuggets (7 Stk)",
@@ -254,9 +254,9 @@ export class LanguageService {
       hero: { title: "NOTRE SÉLECTION" },
       tea: {
         title: "CÉRÉMONIE DU THÉ CHINOIS",
-        subtitle: "Découvrez des dizaines de variétés de thés d'élite",
-        description: "Plongez dans une atmosphère de paix et d'harmonie. Nos maîtres vous guideront à travers des millénaires de traditions du thé.",
-        features: ["Des dizaines de thés chinois authentiques", "Cérémonie traditionnelle Pin Cha", "Variétés exclusives : Puer, Oolong, Da Hong Pao", "Service à thé professionnel"]
+        subtitle: "Prix: 300 UAH",
+        description: "Plongez dans une atmosphère de paix et d'harmonie. Nous proposons plus de 40 variétés de thé chinois authentique. Découvrez des millénaires de traditions du thé.",
+        features: ["Thé Vert", "Oolong", "Thé Rouge", "Thé Blanc", "Sheng Puer", "Shu Puer"]
       },
       visit: { title: "VISITEZ-NOUS", address: "38, rue Lesi Ukrainki", city: "Kamianets-Podilskyi", route: "ITINÉRAIRE" },
       items: {
@@ -275,8 +275,8 @@ export class LanguageService {
         brg_mega: "Mega Burger XXL",
         hd_white_m: "Hot Dog Pain Blanc",
         hd_dark_m: "Hot Dog Pain Noir",
-        hd_white_d: "Hot Dog Saucisse Noire",
-        hd_dark_d: "Hot Dog Saucisse Noire",
+        hd_white_d: "Hot Dog Pain Blanc",
+        hd_dark_d: "Hot Dog Pain Noir",
         fries_100: "Frites Croustillantes (100g)",
         fries_150: "Frites Croustillantes (150g)",
         nuggets_7: "Nuggets de Poulet (7pcs)",

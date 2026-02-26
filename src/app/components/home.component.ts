@@ -27,11 +27,11 @@ import { LanguageService } from '../services/language.service';
             <h2 class="title is-2 mb-4" style="color: #fff !important; font-family: 'Montserrat', sans-serif;">{{ ls.t.tea.title }}</h2>
             <p class="subtitle is-4" style="color: #00d2ff !important; font-weight: 700;">{{ ls.t.tea.subtitle }}</p>
             <p class="is-size-5 mb-5" style="color: #8b92a5;">{{ ls.t.tea.description }}</p>
-            <ul class="mb-6">
-              <li *ngFor="let feat of ls.t.tea.features" class="mb-3 is-flex is-align-items-center" style="color: #fff;">
-                <span style="color: #00d2ff; margin-right: 1rem; font-size: 1.2rem;">●</span> {{ feat }}
-              </li>
-            </ul>
+            <div class="columns is-multiline is-mobile">
+              <div *ngFor="let feat of ls.t.tea.features" class="column is-6 mb-1 is-flex is-align-items-center" style="color: #fff;">
+                <span style="color: #00d2ff; margin-right: 0.8rem; font-size: 1rem;">●</span> {{ feat }}
+              </div>
+            </div>
           </div>
           <div class="column is-6">
             <div class="tea-image-frame">
