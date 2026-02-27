@@ -8,25 +8,22 @@ import { LanguageService } from '../services/language.service';
   imports: [CommonModule],
   template: `
     <!-- Hero -->
-    <section class="hero is-medium hero-glow">
+    <section class="hero is-small hero-glow pt-6-desktop">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <img src="logo.png" alt="KoF" style="max-height: 180px; filter: drop-shadow(0 0 30px rgba(0,210,255,0.6)); margin-bottom: 1.5rem;" class="hero-logo-hover">
-          <p class="subtitle is-5 mt-2" style="color: #8b92a5 !important; font-weight: 800; letter-spacing: 6px; text-transform: uppercase;">
-            Modern Food Culture
-          </p>
+          <img src="logo3.png" alt="KoF" style="max-height: 140px; filter: drop-shadow(0 0 15px rgba(0,210,255,0.9)) drop-shadow(0 0 35px rgba(0,210,255,0.4)); margin-bottom: 1rem;" class="hero-logo-hover">
         </div>
       </div>
     </section>
 
     <!-- Tea Ceremony Section -->
-    <section id="tea" class="section px-4" style="background: linear-gradient(180deg, #090a0f 0%, #15171e 100%); position: relative; overflow: hidden;">
+    <section id="tea" class="section px-4 py-5" style="background: linear-gradient(180deg, #090a0f 0%, #15171e 100%); position: relative; overflow: hidden;">
       <div class="container is-max-desktop">
         <div class="columns is-vcentered">
           <div class="column is-6">
-            <h2 class="title is-2 mb-4" style="color: #fff !important; font-family: 'Montserrat', sans-serif;">{{ ls.t.tea.title }}</h2>
-            <p class="subtitle is-4" style="color: #00d2ff !important; font-weight: 700;">{{ ls.t.tea.subtitle }}</p>
-            <p class="is-size-5 mb-5" style="color: #8b92a5;">{{ ls.t.tea.description }}</p>
+            <h2 class="title is-3 mb-3" style="color: #fff !important; font-family: 'Montserrat', sans-serif;">{{ ls.t.tea.title }}</h2>
+            <p class="subtitle is-5 mb-3" style="color: #00d2ff !important; font-weight: 700;">{{ ls.t.tea.subtitle }}</p>
+            <p class="is-size-6 mb-4" style="color: #8b92a5;">{{ ls.t.tea.description }}</p>
             <div class="columns is-multiline is-mobile">
               <div *ngFor="let feat of ls.t.tea.features" class="column is-6 mb-1 is-flex is-align-items-center" style="color: #fff;">
                 <span style="color: #00d2ff; margin-right: 0.8rem; font-size: 1rem;">●</span> {{ feat }}
@@ -70,28 +67,28 @@ import { LanguageService } from '../services/language.service';
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section px-4 pb-6" style="background: #101218; border-top: 1px solid #1f222d;">
+    <section id="contact" class="section px-4 py-5" style="background: #101218; border-top: 1px solid #1f222d;">
       <div class="container is-max-desktop">
-        <div class="columns is-vcentered py-6">
+        <div class="columns is-vcentered py-4">
           <div class="column is-5">
-            <h2 class="title is-2 mb-6" style="background: linear-gradient(135deg, #fff, #00d2ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+            <h2 class="title is-3 mb-5" style="background: linear-gradient(135deg, #fff, #00d2ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
               {{ ls.t.visit.title }}
             </h2>
             
-            <div class="is-flex is-align-items-center mb-5">
+            <div class="is-flex is-align-items-center mb-4">
               <div class="icon-box"><i class="fa fa-map-marker"></i></div>
               <div>
-                <p class="is-size-4 has-text-weight-bold">{{ ls.t.visit.address }}</p>
+                <p class="is-size-5 has-text-weight-bold">{{ ls.t.visit.address }}</p>
                 <p class="is-size-6 has-text-grey">{{ ls.t.visit.city }}</p>
               </div>
             </div>
             
-            <div class="is-flex is-align-items-center mb-6">
+            <div class="is-flex is-align-items-center mb-5">
               <div class="icon-box"><i class="fa fa-clock-o"></i></div>
-              <p class="is-size-4 has-text-weight-bold">10:00 — 20:45</p>
+              <p class="is-size-5 has-text-weight-bold">10:00 — 20:45</p>
             </div>
             
-            <div class="is-flex mt-5 is-flex-wrap-wrap">
+            <div class="is-flex mt-4 is-flex-wrap-wrap">
               <a href="https://www.instagram.com/cafe.kof/" target="_blank" class="social-circle-btn mb-3">
                 <i class="fa fa-instagram"></i>
               </a>
@@ -101,7 +98,7 @@ import { LanguageService } from '../services/language.service';
               <a href="https://www.tiktok.com/@cafekof" target="_blank" class="social-circle-btn ml-4 mb-3">
                 <svg viewBox="0 0 448 512" style="width: 24px; fill: currentColor;"><path d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72a162.55 162.55 0 1 1-162.55-162.55c8.95 0 17.52.84 25.85 2.4v78.51a82.48 82.48 0 1 0-25.85 161.46c45.51 0 82.48-36.97 82.48-82.48V0h82.48a127.19 127.19 0 0 0 127.19 127.19v82.72z"/></svg>
               </a>
-              <a href="https://www.google.com/maps" target="_blank" class="button is-primary is-outlined is-rounded is-large has-text-weight-bold map-btn ml-5-tablet ml-0-mobile mt-3-mobile">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=KoF+Kamyanets-Podilskyi+вул.+Лесі+Українки+38" target="_blank" class="button is-primary is-outlined is-rounded is-large has-text-weight-bold map-btn ml-5-tablet ml-0-mobile mt-3-mobile">
                 <i class="fa fa-map mr-2"></i> {{ ls.t.visit.route }}
               </a>
             </div>
@@ -111,7 +108,7 @@ import { LanguageService } from '../services/language.service';
             <div class="map-wrapper">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2613.565342750343!2d26.5807197!3d48.6876723!2m3!1f0!2f0!3f0!3m2!1i1024!2i1024!4f13.1!3m3!1m2!1s0x4733c70055d72f1b%3A0xa28cdea40d72745d!2zS29G!5e0!3m2!1suk!2sua!4v1700000000000!5m2!1suk!2sua" 
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
               </iframe>
             </div>
           </div>
@@ -155,6 +152,10 @@ import { LanguageService } from '../services/language.service';
       box-shadow: 0 10px 20px rgba(0,210,255,0.2);
     }
     .map-btn { border-width: 2px; height: 64px; }
+    
+    @media screen and (min-width: 1024px) {
+      .pt-6-desktop { padding-top: 3rem !important; }
+    }
   `]
 })
 export class HomeComponent {

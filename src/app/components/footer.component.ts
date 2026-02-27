@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <footer class="footer custom-footer">
       <div class="container has-text-centered">
-        <img src="logo.png" alt="KoF" class="footer-logo">
+        <img src="logo3.png" alt="KoF" class="footer-logo">
         <div class="is-flex is-justify-content-center mt-4 mb-5">
           <a href="https://github.com/IT-Kamianets/kof.itkamianets.com" target="_blank" class="social-link">
             <i class="fa fa-github"></i>
@@ -23,16 +23,16 @@ import { Component } from '@angular/core';
   styles: [`
     .custom-footer {
       background: #090a0f;
-      padding: 4rem 1.5rem 6rem;
+      padding: 2.5rem 1.5rem 4rem;
       border-top: 1px solid rgba(0, 210, 255, 0.1);
     }
     .footer-logo {
       max-height: 45px;
-      filter: grayscale(1) opacity(0.2);
+      filter: grayscale(1) opacity(0.3) drop-shadow(0 0 5px rgba(0,210,255,0.2));
       transition: all 0.3s;
     }
     .footer-logo:hover {
-      filter: grayscale(0) opacity(1) drop-shadow(0 0 10px rgba(0,210,255,0.5));
+      filter: grayscale(0) opacity(1) drop-shadow(0 0 15px rgba(0,210,255,0.8));
     }
     .social-link {
       display: inline-block;

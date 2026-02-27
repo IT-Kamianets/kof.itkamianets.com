@@ -11,7 +11,7 @@ import { LanguageService, Lang } from '../services/language.service';
       <div class="container px-4">
         <div class="navbar-brand is-flex is-align-items-center" style="width: 100%;">
           <a class="navbar-item p-0 mr-4 is-hidden-mobile" href="/">
-            <img src="logo.png" alt="KoF" style="max-height: 40px; filter: drop-shadow(0 0 8px rgba(0,210,255,0.7)); transition: all 0.3s;">
+            <img src="logo3.png" alt="KoF" style="max-height: 40px; filter: drop-shadow(0 0 10px rgba(0,210,255,0.8)); transition: all 0.3s;">
           </a>
 
           <div class="is-flex is-align-items-center is-justify-content-space-around-mobile ml-auto-desktop nav-container">
